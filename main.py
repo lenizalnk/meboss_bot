@@ -15,6 +15,7 @@ from messages import get_message_text
 logging.basicConfig(level=logging.INFO)
 
 # bot = Bot(token=API_TOKEN)
+import os
 
 if "https_proxy" in os.environ:
     proxy_url = os.environ["https_proxy"]
