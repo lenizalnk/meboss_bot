@@ -1,0 +1,23 @@
+{
+    "286256369": {
+        "286256369": {
+            "state": "StateMachine:view_catalog_state",
+            "data": {
+                "request_for_bot": [
+                    "\ud83d\udcba \u0412\u044b\u0432\u0435\u0441\u0442\u0438 \u043a\u0430\u0442\u0430\u043b\u043e\u0433",
+                    "\ud83d\udcba \u0412\u044b\u0432\u0435\u0441\u0442\u0438 \u043a\u0430\u0442\u0430\u043b\u043e\u0433",
+                    "\ud83d\udcba \u0412\u044b\u0432\u0435\u0441\u0442\u0438 \u043a\u0430\u0442\u0430\u043b\u043e\u0433",
+                    "\ud83d\udcba \u0412\u044b\u0432\u0435\u0441\u0442\u0438 \u043a\u0430\u0442\u0430\u043b\u043e\u0433"
+                ]
+            },
+            "bucket": {}
+        }
+    },
+    "242188615": {
+        "242188615": {
+            "state": "StateMachine:main_state",
+            "data": {},
+            "bucket": {}
+        }
+    }
+}
