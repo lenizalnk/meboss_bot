@@ -14,7 +14,14 @@ from messages import get_message_text
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token=API_TOKEN)
+# bot = Bot(token=API_TOKEN)
+
+if "https_proxy" in os.environ:
+    proxy_url = os.environ["https_proxy"]
+    bot = Bot(token=API_TOKEN, proxy=proxy_url)
+else:
+    bot = Bot(token=API_TOKEN)
+
 
 storage = JSONStorage("states.json")
 
