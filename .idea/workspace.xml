@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0366cf90-8522-4181-baaa-a1db73c3407e" name="Changes" comment="ADD https_proxy">
+    <list default="true" id="0366cf90-8522-4181-baaa-a1db73c3407e" name="Changes" comment="import os">
+      <change afterPath="$PROJECT_DIR$/data/products/1_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/products/2_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/products/3_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Categories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Customers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_meboss.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/messages/messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states.json" beforeDir="false" afterPath="$PROJECT_DIR$/states.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,19 +37,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GZjdZ2uFL2BuxkqQWef9f5g4nb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/products" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -90,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666807450842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="import os">
+      <created>1666809292349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666809292349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,21 +130,38 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ADD https_proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD https_proxy" />
+    <MESSAGE value="import os" />
+    <option name="LAST_COMMIT_MESSAGE" value="import os" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="29" />
+          <line>16</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="38" />
+          <line>32</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -132,11 +174,14 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="re.fullmatch(&quot;Для дома&quot;, message.text.lower())" language="Python" />
-        <watch expression="(re.fullmatch(&quot;.*став.*сч.*&quot;, message.text) or re.fullmatch(&quot;.*сч.*&quot;, message.text)) and not re.fullmatch(&quot;.*доставк.*&quot;, message.text)" language="Python" />
-        <watch expression="message.text" />
-        <watch expression="reader['name']" language="Python" />
-        <watch expression="row['name'].text" language="Python" />
+        <watch expression="range(len(ProductsTable.select_products_by_category(&quot;office&quot;)))" language="Python" />
+        <watch expression="f&quot;order_pizza_{products.products_id}&quot;" />
+        <watch expression="f'data/products/{products.products_id}_{products.color}.jpg'" language="Python" />
+        <watch expression="ProductsTable.select_products_by_category(&quot;office&quot;)[1]" language="Python" />
+        <watch expression="ProductsTable.select_products_by_category(&quot;office&quot;)[i]" language="Python" />
+        <watch expression="ProductsTable.select_products_by_category(&quot;office&quot;)" language="Python" />
+        <watch expression="ProductsTable.select_products_by_category(&quot;office&quot;)" />
+        <watch expression="{products.products_id}_{products.color}.jpg" />
       </configuration>
     </watches-manager>
   </component>
