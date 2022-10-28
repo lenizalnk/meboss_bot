@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0366cf90-8522-4181-baaa-a1db73c3407e" name="Changes" comment="import os">
-      <change afterPath="$PROJECT_DIR$/data/products/1_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/products/2_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/products/3_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Categories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Customers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_meboss.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/messages/messages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/states.json" beforeDir="false" afterPath="$PROJECT_DIR$/states.json" afterDir="false" />
-    </list>
+    <list default="true" id="0366cf90-8522-4181-baaa-a1db73c3407e" name="Changes" comment="import os" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666809292349</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="import os">
+      <created>1666969690706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666969690707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,22 +136,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>32</line>
+          <line>29</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>35</line>
+          <line>31</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>142</line>
+          <line>122</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>175</line>
+          <line>155</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
