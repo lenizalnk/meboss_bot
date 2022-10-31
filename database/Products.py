@@ -24,5 +24,11 @@ class ProductsTable(BaseModel):
         return ProductsTable.select().where(ProductsTable.category_id == id).execute()
 
     @staticmethod
-    def get_products_by_categoryprice(id):
-        return ProductsTable.select().where(ProductsTable.category_id == id and ProductsTable.price > 0).execute()
+    def select_products_by_n_and_cat(name, cat):
+        return ProductsTable.select().where((ProductsTable.category_id == cat)
+                                            & (ProductsTable.name.contains(name))).execute()
+    @staticmethod
+    def select_products_by_name(name):
+        # return ProductsTable.select().where(ProductsTable.name ** name).execute()
+        return ProductsTable.select().where(ProductsTable.name.contains(name)).execute()
+        # return ProductsTable.select().where(ProductsTable.name.contains("name")).execute()
